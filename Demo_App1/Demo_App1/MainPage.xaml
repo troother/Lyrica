@@ -5,7 +5,8 @@
              x:Class="Demo_App1.MainPage">
 
     <StackLayout BackgroundColor="Ivory">
-        <ActivityIndicator  Color="Black" IsRunning="False" />
+        <ActivityIndicator x:Name="activityIndicator" Color="Black" IsRunning="False" />
+        
         <Label Text="Lyrica"
            VerticalOptions="Center" 
            HorizontalOptions="Center" 
@@ -19,10 +20,7 @@
         <Entry></Entry>
 
         <Button Clicked="Btn_Search" Text="Get Lyric!"/>
-        
-
-
-        
+                
         <ScrollView>
             <Label 
             Text="Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric " 

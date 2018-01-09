@@ -16,8 +16,16 @@ namespace Demo_App1
 
         private void Btn_Search(object sender, EventArgs e)
         {
-            
-            this.DisplayAlert("hej","lkjh","Close");
+            if (activityIndicator.IsRunning == false)
+            {
+                activityIndicator.IsRunning = true;
+            }
+            else
+            {
+                activityIndicator.IsRunning = false;
+            }
+            //activityIndicator.IsRunning = true;
+            //this.DisplayAlert("hej","lkjh","Close");
         }
     }
 }
