@@ -13,5 +13,11 @@ namespace Demo_App1
         {
             InitializeComponent();
         }
+
+        private void Btn_Search(object sender, EventArgs e)
+        {
+            
+            this.DisplayAlert("hej","lkjh","Close");
+        }
     }
 }

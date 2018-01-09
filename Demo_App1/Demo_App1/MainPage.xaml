@@ -4,8 +4,31 @@
              xmlns:local="clr-namespace:Demo_App1"
              x:Class="Demo_App1.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+    <StackLayout BackgroundColor="Ivory">
+        <ActivityIndicator  Color="Black" IsRunning="False" />
+        <Label Text="Lyrica"
            VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+           HorizontalOptions="Center" 
+           FontSize="Large"
+           />
+
+        <Label Text="Artist" />
+        <Entry></Entry>
+
+        <Label Text="Song title" />
+        <Entry></Entry>
+
+        <Button Clicked="Btn_Search" Text="Get Lyric!"/>
+        
+
+
+        
+        <ScrollView>
+            <Label 
+            Text="Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric Lyric " 
+            BackgroundColor="AliceBlue"            
+            />
+        </ScrollView>
+    </StackLayout>
 
 </ContentPage>
